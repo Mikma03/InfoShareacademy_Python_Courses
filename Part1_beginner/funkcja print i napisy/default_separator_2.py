@@ -1,0 +1,3 @@
+
+print("Nazywam się", "Mikołaj")
+
