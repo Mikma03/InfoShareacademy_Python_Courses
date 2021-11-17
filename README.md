@@ -1,2 +1,17 @@
 # InfoShareacademy_Python_Courses
-The codes presented in this repository are the result of completing InfoShare courses.
+
+As a result of participating in InfoShare courses about Python those are codes and algorithms done during classes.
+
+The full range of topics and the entire course can be found on the website:
+
+The whole thing is divided into three parts:
+
+  1. Beginner.
+  2. Intermediate.
+  3. Advanced.
+
+The three parts have been thought out and planned in such a way to introduce you to the world of programming from scratch and end at an advanced level.
+
+During the course, PyCharm was used as an IDE.
+
+The folders contain codes and the scope of the issues to be implemented.
