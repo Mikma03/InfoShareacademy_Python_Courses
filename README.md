@@ -25,6 +25,4 @@ https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html
 
 https://www.youtube.com/watch?v=bTVIMt3XllM&ab_channel=FaradayAcademy
 
-
-![][image_ref_a32ff4ads]
-[image_ref_a32ff4ads]: https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf?_ga=2.4074742.73565829.1637273104-758180746.1636700692
+https://www.youtube.com/watch?v=FEa2diI2qgA&ab_channel=BryanJenks
