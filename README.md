@@ -15,3 +15,6 @@ The three parts have been thought out and planned in such a way to introduce you
 During the course, PyCharm was used as an IDE.
 
 The folders contain codes and the scope of the issues to be implemented.
+
+**PyCharm keyboard shortcuts**
+https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html
