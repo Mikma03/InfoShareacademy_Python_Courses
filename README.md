@@ -19,3 +19,8 @@ The folders contain codes and the scope of the issues to be implemented.
 **PyCharm keyboard shortcuts**
 
 https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html
+
+
+**Makrdown tutorial in practical use**
+
+https://www.youtube.com/watch?v=bTVIMt3XllM&ab_channel=FaradayAcademy
