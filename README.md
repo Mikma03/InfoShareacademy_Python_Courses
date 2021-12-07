@@ -2,9 +2,9 @@
 
 As a result of participating in InfoShare courses about Python those are codes and algorithms done during classes.
 
-The full range of topics and the entire course can be found on the website:
+The full range of topics and the entire course can be found on the [website](https://www.infoshareacademy.online/):
 
-The whole thing is divided into three parts:
+The whole things are divided into three parts:
 
   1. Beginner.
   2. Intermediate.
@@ -16,11 +16,13 @@ During the course, PyCharm was used as an IDE.
 
 The folders contain codes and the scope of the issues to be implemented.
 
-**PyCharm keyboard shortcuts**
 
-https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf?_ga=2.4074742.73565829.1637273104-758180746.1636700692
+Usefull links to be more effective:
 
 
-**Makrdown tutorial in practical use**
+[PyCharm keyboard shortcuts](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf?_ga=2.4074742.73565829.1637273104-758180746.1636700692)
 
-https://www.youtube.com/watch?v=FEa2diI2qgA&ab_channel=BryanJenks
+
+[Makrdown tutorial in practical use](https://www.youtube.com/watch?v=FEa2diI2qgA&ab_channel=BryanJenks)
+
+
