@@ -1,4 +1,6 @@
 
+
+
 # Zapytaj użytkownika o ceny trzech produktów i wypisz wyniki ich porównania
 
 computer_price = float(input("Ile średnio kosztuje komputer? "))
