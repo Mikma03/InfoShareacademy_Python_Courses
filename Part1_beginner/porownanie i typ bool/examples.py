@@ -4,6 +4,8 @@ apples_price = 3
 bananas_price = 4.5
 pears_price = 3
 
+print(type(apples_price))
+# print('cos')
 # print(f"Czy jabłka są droższe od bananów? \t\t\t\t\t\t\t {apples_price > bananas_price}")
 # print(f"Czy jabłka są tańsze od bananów? \t\t\t\t\t\t\t {apples_price < bananas_price}")
 # print(f"Czy banany kosztują tyle samo co gruszki? \t\t\t\t\t {bananas_price == pears_price}")

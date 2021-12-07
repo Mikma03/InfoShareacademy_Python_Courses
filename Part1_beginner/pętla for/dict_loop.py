@@ -34,7 +34,7 @@ expenditures = {
 # item[1] = 20
 
 # Krotkę można "rozpakować"
-item = ("prąd", 340)
-name, value = item
-print(name, value)
+# item = ("prąd", 340)
+# name, value = item
+# print(name, value)
 
