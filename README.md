@@ -6,9 +6,11 @@ The full range of topics and the entire course can be found on the [website](htt
 
 The whole things are divided into three parts:
 
-  1. Beginner.
-  2. Intermediate.
-  3. Advanced.
+  1. **Beginner - intro to Python, data structure and main concepts as functions**
+
+  2. **Intermediate - OOP in Python**
+
+  3. **Advanced**
 
 The three parts have been thought out and planned in such a way to introduce you to the world of programming from scratch and end at an advanced level.
 
