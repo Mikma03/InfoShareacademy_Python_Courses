@@ -1,0 +1,436 @@
+######################################################################################################
+Zmienne (zadania)
+
+Zadanie nr 1
+W ciągu 3 godzin biegu biegacz pokonał 38 kilometrów. Wyznacz średnią prędkość korzystając ze zmiennych.
+
+Zadanie nr 2
+Zakładając, że na lokatę wpłacono 1000 zł, a oprocentowanie wynosi 4% w skali roku, oblicz jaka będzie wartość lokaty po 5 latach.
+
+Wzór to:
+wartość = wartość pocz. * (1 + procent/100) ^ liczba lat
+
+Zadanie nr 3
+Oblicz jaką drogę pokonasz idąc do sklepu po czerwonych liniach i wypisz tyle myślników (-) jaki będzie wynik.
+
+######################################################################################################
+Funkcja print i napisy (zadania)
+
+Zadanie nr 1
+Zapisz jeszcze raz rozwiązanie zadania ze średnią prędkością biegu, tym razem jako skrypt.
+
+Wypisz wynik wraz z informacją tekstową (np. średnia prędkość to...) wykorzystując funkcję print.
+
+Zadanie nr 2
+Wypisz swoje ulubione potrawy, każdą z nich umieszczając w nowej linii.
+
+######################################################################################################
+Funkcja input (zadania)
+
+Zadanie nr 1
+Zapytaj użytkownika ile ma lat i wypisz ile to miesięcy.
+
+
+Zadanie nr 2
+Zapytaj ile kilometrów przeszedł w tym tygodniu i policz ile tygodni zajmie mu okrążenie Ziemi.
+Pamiętaj, że obwód Ziemi to 40 075 km.
+
+
+Zadanie nr 3
+Zastosuj wzór do obliczenia wartości lokaty, pobierając od użytkownika następujące dane:
+
+początkowa wartość
+oprocentowanie
+czas trwania w latach
+
+
+######################################################################################################
+Typ int oraz float (zadanie)
+
+Zadanie nr 1
+Napisz program, który zapyta użytkownika jaka jest cena jabłek w Biedronce, Lidlu i Żabce.
+
+Następnie wypisz informację: Ile kosztują najtańsze jabłka?
+
+
+######################################################################################################
+Typ str, czyli napisy (zadania)
+
+
+Zadanie nr 1
+Dostosuj program liczący wartość lokaty, tak aby wyświetlał ją z dokładnością do groszy (dwóch cyfr po przecinku).
+
+ 
+
+Zadanie nr 2
+Zapytaj użytkownika o imię i wypisz ile liter zawiera.
+
+ 
+
+Zadanie nr 3
+Zapytaj użytkownika gdzie mieszka i wypisz odpowiedź, np. "Jak miło, że mieszkasz w Gdańsku".
+
+W razie nieuwagi użytkownika popraw wprowadzoną nazwę miasta, tak by zaczynała się z wielkiej litery.
+
+ 
+
+Zadanie nr 4
+Wyobraź sobie, że przetwarzasz dane dotyczące samochodów.
+
+Numery tablic rejestracyjnych zostały jednak zapisane w niespójny sposób:
+
+ford = "ab100100"
+audi = "EEE 123123"
+citroen = "Zk-300300
+honda = "AB210210"
+ 
+
+Stwórz zmienne jak powyżej i zmodyfikuj ich wartość, tak aby wszystkie były w formacie takim jak Honda, czyli wielkie litery i bez przerw w ciągu cyfr.
+
+Wypisz wszystkie wyniki.
+
+
+######################################################################################################
+Typ list (zadania)
+
+
+Zadanie nr 1
+Stwórz zmienną favourite_sports, która będzie listą zawierającą nazwy dyscyplin sportu, które lubisz.
+
+Następnie wypisz informacje, jaki sport jest pierwszy na Twojej liście, a jaki ostatni.
+
+Podmień jeden ze sportów na inny i wypisz całą listę.
+
+ 
+
+Zadanie nr 2
+Zapytaj użytkownika o 3 ulubione potrawy i zapisz je w postaci listy.
+
+ 
+
+Zadanie nr 3
+Zapytaj użytkownika o numer telefonu i wypisz go w postaci zanonimizowanej.
+
+Wypisz pierwszych 5 cyfr, a kolejne zastąp myślnikiem.
+
+
+######################################################################################################
+Typ dict, czyli słownik (zadania)
+
+
+Zadanie nr 1
+Stwórz i wypisz słownik, w którym kluczami będą różne przedmioty szkolne, a wartościami oceny uzyskane z tych przedmiotów.
+
+ 
+
+Zadanie nr 2
+Stwórz zmienną my_family zawierającą drzewo genealogiczne Twojej rodziny.
+
+Zacznij od siebie, opisując imię, nazwisko oraz datę urodzenia każdej osoby oraz jej rodziców.
+
+Podpowiedź: rodzice będą listami zawierającymi w sobie kolejne słowniki.
+
+ 
+
+Zadanie nr 3
+Zapytaj użytkownika ile miesięcznie wydaje pieniędzy na:
+
+jedzenie
+rozrywkę
+opłaty
+inne
+Oblicz udział procentowy każdej kategorii w łącznych wydatkach.
+
+Następnie poproś użytkownika o wybór kategorii i wypisz jaki jest jej udział procentowy.
+
+######################################################################################################
+Porównanie i typ bool (zadania)
+
+
+Zadanie nr 1
+Zapytaj użytkownika o ceny trzech produktów i wypisz wyniki ich porównania.
+
+ 
+
+Zadanie nr 2
+Poproś użytkownika o wprowadzenie listy zakupów, rozdzielając poszczególne elementy przecinkiem.
+
+Następnie powiedz (wypisz), czy jest to według Ciebie długa lista, czy też nie.
+
+ 
+
+Zadanie nr 3
+Zmodyfikuj program obliczający wartość lokaty, tak aby dodatkowo wypisywał informacje, czy w planowanym okresie łączna wartość inwestycji wzrośnie o co najmniej 10%.
+
+######################################################################################################
+Instrukcja if/else (zadania)
+
+Zadanie nr 1
+Zmodyfikuj rozwiązania zadań 1 i 2 z poprzedniej lekcji, tak aby wypisywać różne informacje w zależności od wyniku porównań.
+
+ 
+
+Zadanie nr 2
+Zmodyfikuj rozwiązanie zadania z kalkulatorem wydatków z lekcji dotyczącej słownika (moduł 3).
+
+Pobierz te same informacje na temat miesięcznych wydatków w różnych kategoriach.
+
+Wypisz jednak informacje na temat procentowego udziału najbardziej znaczącej kategorii.
+
+ 
+
+Zadanie nr 3
+Zapytaj użytkownika o jego oceny końcowe z kilku przedmiotów (matematyka, fizyka, itd.).
+
+Następnie, przeanalizuj je i wypisz informację czy zdał/zdała do kolejnej klasy.
+
+Załóż, że zdać można wtedy jeżeli nie ma się żadnej jedynki albo jeżeli ma się jedną jedynkę, ale średnia ze wszystkich ocen jest wyższa niż 3.5.
+
+ 
+
+Zadanie nr 4
+Zapytaj o imię i "rozpoznaj" czy użytkownik to kobieta czy mężczyzna.
+
+Podpowiedź: Na potrzeby tego zadania możemy założyć, że żeńskie imiona kończą się na "a".
+
+
+######################################################################################################
+Operatory logiczne and/or/not (zadania)
+
+Napisz uproszczony kalkulator kredytowy.
+
+Celem kalkulatora jest sprawdzenie czy użytkownika stać na kredyt hipoteczny o podanych parametrach.
+
+Zapytaj użytkownika o:
+
+kwotę kredytu
+oprocentowanie kredytu
+wartość wkładu własnego
+czas kredytowania w latach
+przychód miesięczny
+sumę miesięcznych wydatków
+ 
+
+Oblicz ratę ze wzoru:
+(kwota kredytu * oprocentowanie / 100) / 12 + kwota kredytu / (liczba lat * 12)
+
+ 
+
+Oblicz dostępne środki jako:
+przychód - suma wydatków
+
+ 
+
+Oblicz wartość nieruchomości jako:
+wkład własny + kwota kredytu
+
+
+######################################################################################################
+Instrukcja elif (zadania)
+
+Zadanie nr 1
+Połącz kalkulator wartości lokaty i kredytowy.
+
+Zapytaj użytkownika czy chce obliczyć wartość lokaty czy zdolność kredytową.
+
+Następnie wyznacz oczekiwaną wartość.
+
+Obsłuż (na przykład odpowiednim komunikatem) sytuację, w której użytkownik wybierze nieistniejącą opcję.
+
+ 
+
+Zadanie nr 2
+Zaimplementuj program interpretujący wynik uzyskany w teście Coopera.
+
+Zapytaj o:
+
+wiek
+płeć
+uzyskany wynik
+Na tej podstawie zinterpretuj rezultat.
+
+Możesz zaimplementować tylko wybrane przedziały wiekowe.
+
+######################################################################################################
+Operatory in oraz is (zadania)
+
+Zadanie nr 1
+Zmodyfikuj zadanie, w którym pytasz użytkownika o listę zakupów i sprawdź, czy znajdują się na niej chleb albo bułki.
+
+ 
+
+Zadanie nr 2
+Zapytaj użytkownika o numer telefonu i sprawdź czy zawiera przynajmniej jedną cyfrę 0.
+
+ 
+
+Zadanie nr 3
+Utwórz zmienną value oraz instrukcję warunkową, która sprawdzi czy wartość tej zmiennej jest:
+
+True
+False
+None
+inną wartością
+
+######################################################################################################
+Pętla while (zadania)
+
+Zadanie nr 1
+Pytaj użytkownika o liczbę tak długo aż poda liczbę parzystą lub przekroczy limit 10 prób.
+
+ 
+
+Zadanie nr 2
+Wczytaj numer telefonu użytkownika i rozdziel go myślnikami (format XXX-XXX-XXX).
+
+ 
+
+Zadanie nr 3
+Poproś użytkownika o podanie ulubionych dań, rozdzielając każde z nich przecinkiem.
+
+Następnie wypisz każde z nich wraz z informacją, które miejsce zajmuje na jej/jego liście.
+
+######################################################################################################
+Pętla for (zadania)
+
+Zadanie nr 1
+Poproś użytkownika o wprowadzenie ocen, które uzyskał/a.
+
+Wykorzystaj pętlę while, aby pytać o kolejne oceny i zakończyć wprowadzanie odpowiednim znakiem (np. X).
+
+Następnie, stosując pętlę for oblicz średnią z podanych ocen.
+
+ 
+
+Zadanie nr 2
+Zmodyfikuj zadanie z poprzedniej lekcji dotyczące formatowania numeru telefonu.
+
+Zastąp pętlę while pętlą for (i enumerate).
+
+ 
+
+Zadanie nr 3
+Wczytaj od użytkownika kolejne kategorie wydatków oraz dla każdej z nich dokonane wydatki.
+
+Zastosuj pętlę while, aby użytkownik mógł zakończyć wprowadzanie kategorii i wydatków.
+
+Stosując pętlę for oblicz procentowy udział każdego z wydatków w miesięcznym budżecie i wypisz wyniki oraz dodatkową informację, która powie o najbardziej znaczącej kategorii.
+
+######################################################################################################
+Pętla for in range (zadania)
+
+Zadanie nr 1
+Poproś użytkownika o podanie numeru telefonu.
+
+Następnie wypisz informację ile razy występuje w nim każda cyfra.
+
+ 
+
+Zadanie nr 2
+Napisz kalkulator dla kredytu o malejącej racie.
+
+ 
+
+Zapytaj użytkownika o:
+
+kwotę kredytu
+oprocentowanie kredytu (tutaj zakładamy, że oprocentowanie jest stałe)
+czas trwania (w latach)
+koszty początkowe (prowizja itp.)
+Oblicz jaką łącznie sumę użytkownik odda bankowi i porównaj ją z kapitałem, który otrzyma.
+
+ 
+
+Oblicz wartość każdej miesięcznej raty według wzoru:
+
+kapitał spłacany miesięcznie = kwota kredytu / (liczba lat * 12)
+
+pozostały kapitał = kwota kredytu - (numer miesiąca od początku - 1) * kapitał spłacany miesięcznie
+
+rata = (pozostały kapitał * oprocentowanie / 100) / 12 + kapitał spłacany miesięcznie
+
+######################################################################################################
+Komendy break i continue (zadania)
+
+Zadanie nr 1
+Zmodyfikuj rozwiązanie zadania z promocją do kolejnej klasy z lekcji o instrukcji if/else (moduł 4).
+
+Wczytaj oceny do listy.
+
+Jeżeli jest jakakolwiek jedynka to klasę trzeba powtórzyć.
+
+W przeciwnym razie należą się gratulacje.
+
+
+Zadanie nr 2
+Zmodyfikuj rozwiązanie zadania trzeciego z lekcji dotyczącej pętli for (obliczanie wydatków domowych).
+
+Skorzystaj z instrukcji break, aby wyeliminować powtórzone wywołania funkcji input.
+
+
+Zadanie nr 3
+Utwórz listę zawierającą różne liczby i skorzystaj z instrukcji continue, aby wypisać tylko liczby nieparzyste.
+
+
+######################################################################################################
+Funkcje (zadania)
+
+Zadanie nr 1
+Napisz funkcję, która obliczy pole powierzchni prostokąta na podstawie długości jego boków.
+
+ 
+
+Zadanie nr 2
+Napisz funkcję liczącą prędkość średnią na podstawie zadanego dystansu i czasu.
+
+Następnie wykorzystaj ją implementując program, który wyznaczy:
+
+średnią prędkość biegu
+średnią prędkość jazdy na rowerze
+średnią prędkość jazdy autem
+ 
+
+Zadanie nr 3
+Zmodyfikuj zadanie drugie (dotyczące budżetu domowego) z lekcji dotyczącej break i continue (moduł 5).
+
+Zamknij spójne elementy programu w funkcje.
+
+######################################################################################################
+Argumenty pozycyjne i nazwane (zadania)
+
+
+Zmodyfikuj rozwiązanie zadania z prędkością średnią (z poprzedniej lekcji) wywołując funkcję z zastosowaniem argumentów nazwanych.
+
+######################################################################################################
+Parametry domyślne (zadania)
+
+Zadanie nr 1
+Napisz funkcję, która podaną liczbę zamieni na zakres.
+
+Domyślnie przyjmujemy zakres jako +/- 10% podanej wartości.
+
+ 
+
+Zadanie nr 2
+Napisz funkcję, dodającą kolejne osoby do listy osób uczęszczających na zajęcia.
+
+Funkcja przyjmuje napis, który zawiera imiona rozdzielone przecinkiem oraz listę już zapisanych osób, która domyślnie jest pusta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
