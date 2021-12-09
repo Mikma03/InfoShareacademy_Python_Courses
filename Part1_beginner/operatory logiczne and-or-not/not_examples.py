@@ -2,12 +2,12 @@
 # income = float(input("Jaki jest miesięczny przychód Twojej firmy? "))
 # number_of_employees = int(input("Ilu pracowników zatrudniasz? "))
 # support_answer = input("Czy Twoja firma otrzymała już jakieś wsparcie? (T/N) ")
-#
+
 # if support_answer == "T":
 #     support_used = True
 # else:
 #     support_used = False
-#
+
 # if not support_used and (income < 15500 or number_of_employees >= 3):
 #     print("Możesz otrzymać dotacje")
 # else:

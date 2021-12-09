@@ -1,8 +1,8 @@
 
 # Ten sam warunek zapisany za pomocą operatora and
-name = input("Jak się nazywasz? ")
-print(f"Miło Cię poznać {name}")
-name_length = len(name)
+# name = input("Jak się nazywasz? ")
+# print(f"Miło Cię poznać {name}")
+# name_length = len(name)
 
 # if name_length < 5:
 #     print(f"{name} to raczej krótkie imię")
