@@ -1,4 +1,5 @@
 
+
 # Instrukcja in pozwala sprawdzić czy litera występuje w napisie
 # name = "Ala"
 # if "A" in name:
@@ -8,8 +9,8 @@
 
 
 # Możemy za jej pomocą sprawdzić czy element występuje na liście
-favourite_sports = ["bieganie", "jazda na rowerze", "pływanie"]
-#
+# favourite_sports = ["bieganie", "jazda na rowerze", "pływanie"]
+# #
 # if "koszykówka" in favourite_sports:
 #     print("Zagramy w kosza?")
 # else:
@@ -22,7 +23,7 @@ favourite_sports = ["bieganie", "jazda na rowerze", "pływanie"]
 # }
 # if "first_name" in person:
 #     print(person["first_name"])
-#
+
 # if "car" in person:
 #     print(person["car"])
 

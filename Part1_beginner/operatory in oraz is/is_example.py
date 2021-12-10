@@ -14,6 +14,8 @@ if age is True:
 true_value = True
 if true_value is True:
     print("if true_value is True")
+    
+##############################################
 
 nothing = None
 if not nothing:
