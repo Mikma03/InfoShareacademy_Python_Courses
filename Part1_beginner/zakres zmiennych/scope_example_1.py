@@ -8,15 +8,19 @@ def avg_speed(distance, time):
 avg_speed(30, 2)
 print(result)
 
+#########################################################
+
 # Zmienna distance została zdefiniowana poza jakąkolwiek funkcją - jest globalna
 def avg_speed(time):
     result = distance / time
     return result
-#
-#
+
+
 distance = 20
 time_in_hours = 2
 print(avg_speed(time_in_hours))
+
+#########################################################
 
 # Zmienna distance jest zdefiniowana w inne funkcji - jest lokalna i niedostępna spoza tej funkcji
 def avg_speed(time):

@@ -9,17 +9,18 @@ def peel_the_potatoes():
         potatoes.append("Ziemniak")
     print(potatoes)
 
+############################################################################
 
 # Obieranie ziemniaków - wywołanie funkcji
-# peel_the_potatoes()
-# peel_the_potatoes()
-# peel_the_potatoes()
+peel_the_potatoes()
+peel_the_potatoes()
+peel_the_potatoes() 
 
 
-# def make_soup():
-#     print("Jest zupa!")
+def make_soup():
+    print("Jest zupa!")
 
 
-# peel_the_potatoes()
-# make_soup()
+peel_the_potatoes()
+make_soup()
 

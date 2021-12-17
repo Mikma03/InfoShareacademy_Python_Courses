@@ -14,7 +14,7 @@ def avg_speed(distance, time):
 # bike_ride_time = float(input("Ile godzin Ci to zajęło? "))
 # car_drive_distance = float(input("Ile km przejechałeś/przejechałaś autem? "))
 # car_drive_time_time = float(input("Ile godzin Ci to zajęło? "))
-#
+
 # print(f"Twoja średnia prędkość biegu to {avg_speed(running_distance, running_time)}km/h")
 # print(f"Twoja średnia prędkość jazdy rowerem to {avg_speed(bike_ride_distance, bike_ride_time)}km/h")
 # print(f"Twoja średnia prędkość jazdy autem to {avg_speed(car_drive_distance, car_drive_time_time)}km/h")

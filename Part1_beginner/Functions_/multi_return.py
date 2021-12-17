@@ -15,8 +15,8 @@ grades_data = {
     "Matematyka": [5, 4, 3, 6],
     "Fizyka": [4, 3, 2, 5]
 }
-# the_best_grade, subject = find_best_grade(grades_data)
-# print(f"Najlepsza uzyskana ocena to {the_best_grade} z {subject}")
+the_best_grade, subject = find_best_grade(grades_data)
+print(f"Najlepsza uzyskana ocena to {the_best_grade} z {subject}")
 
 result = find_best_grade(grades_data)
 print(result[0])
