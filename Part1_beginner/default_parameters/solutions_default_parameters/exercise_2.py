@@ -11,6 +11,7 @@ def add_people_to_classes(names_str, participants=None):
     # participants += names
     return participants
 
+
 attendees_names = "Ola,Bob,Ala,Kuba"
 monday_course_participants = add_people_to_classes(attendees_names)
 print(monday_course_participants)
