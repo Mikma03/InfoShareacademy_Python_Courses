@@ -1,10 +1,10 @@
 
 # Za pomocą from ... import możemy importować zarówno cały moduł jak i pojedyncze funckje/zmienne
 
-from estudent.school import promotion_status
-from estudent.school import calculate_student_final_grades
-from estudent.school import check_promotion
-from estudent.school import is_student_in_school
+from ex_1_from_import.school import promotion_status
+from ex_1_from_import.school.grade_calculator import calculate_student_final_grades
+from ex_1_from_import.school.promote import check_promotion
+from ex_1_from_import.school.students_data import is_student_in_school
 
 print("Witaj w elektronicznym dzienniku!")
 

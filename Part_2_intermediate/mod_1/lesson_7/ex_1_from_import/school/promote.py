@@ -1,5 +1,5 @@
 
-from estudent.school import promotion_status
+from ex_1_from_import.school import promotion_status
 
 FAILED_GRADE = 1
 
