@@ -12,8 +12,8 @@ def run_example():
         print(student)
     print("-" * 20)
 
-    students.sort()
-    # students.sort(key=grades_avg_for_student)
+    # students.sort()
+    students.sort(key=grades_avg_for_student)
 
     for student in students:
         print(student)

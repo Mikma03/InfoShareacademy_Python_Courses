@@ -15,9 +15,9 @@ def run_example():
         geografia=3
     )
 
-    # print("Pojedyncza wartość")
-    # print("Jedna", "i druga")
-    # print("Jedna", "i druga", "a nawet trzecia")
+    print("Pojedyncza wartość")
+    print("Jedna", "i druga")
+    print("Jedna", "i druga", "a nawet trzecia")
 
 if __name__ == '__main__':
     run_example()

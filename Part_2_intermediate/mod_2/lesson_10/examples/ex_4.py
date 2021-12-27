@@ -11,17 +11,17 @@ def run_example():
         "chemia": 5,
     }
 
-    print_grades(grades)
-    # print_grades(**grades)
+    # print_grades(grades)
+    print_grades(**grades)
 
-    # more_grades = {
-    #     "polski": 4,
-    #     "biologia": 4,
-    #     "geografia": 3
-    # }
-    #
-    # all_grades = {**grades, **more_grades}
-    # print(all_grades)
+    more_grades = {
+        "polski": 4,
+        "biologia": 4,
+        "geografia": 3
+    }
+    
+    all_grades = {**grades, **more_grades}
+    print(all_grades)
 
 
 if __name__ == '__main__':

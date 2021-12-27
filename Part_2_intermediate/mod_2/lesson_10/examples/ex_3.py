@@ -17,15 +17,15 @@ def run_example():
     result = calculate_sum_via_args(numbers)
     print(result)
 
-    # result = calculate_sum_via_args(*numbers)
-    # print(result)
+    result = calculate_sum_via_args(*numbers)
+    print(result)
 
-    # two_numbers = [10, 30]
-    # result = add_two_numbers(*two_numbers)
-    # print(result)
+    two_numbers = [10, 30]
+    result = add_two_numbers(*two_numbers)
+    print(result)
 
-    # combined_numbers = [*numbers, *two_numbers]
-    # print(combined_numbers)
+    combined_numbers = [*numbers, *two_numbers]
+    print(combined_numbers)
 
 
 

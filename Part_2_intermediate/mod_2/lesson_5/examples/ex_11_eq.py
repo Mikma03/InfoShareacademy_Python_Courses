@@ -31,11 +31,11 @@ def run_example():
         Money(dollars=100, cents=20),
         Money(dollars=1000, cents=20),
     ]
-    # print(f"{Money(dollars=1, cents=20)} in some_money?")
-    # print(Money(dollars=1, cents=20) in some_money)
-    #
-    # print(f"{Money(dollars=55, cents=20)} in some_money?")
-    # print(Money(dollars=55, cents=20) in some_money)
+    print(f"{Money(dollars=1, cents=20)} in some_money?")
+    print(Money(dollars=1, cents=20) in some_money)
+    
+    print(f"{Money(dollars=55, cents=20)} in some_money?")
+    print(Money(dollars=55, cents=20) in some_money)
 
     other_money = [
         Money(dollars=1000, cents=20),
