@@ -38,12 +38,12 @@ def run_example():
     # print(tutor.assigned_departments)
 
     # Obiekt klasy bazowej ma dostęp tylko do pól i metod swojej klasy
-    # teacher = Teacher(name="Jakub", subject="Historia")
+    teacher = Teacher(name="Jakub", subject="Historia")
     # # print(teacher.guided_department)
     # # teacher.send_message_from_parents(message="Pozdrowienia!")
-    # teacher.assign_department("C1")
-    # print(teacher.name)
-    # print(teacher.assigned_departments)
+    teacher.assign_department("C1")
+    print(teacher.name)
+    print(teacher.assigned_departments)
 
     # Obiekt klasy potomnej nie ma dostępu do metod i pól prywatnych klasy bazowej
     # print(tutor.__private_info)

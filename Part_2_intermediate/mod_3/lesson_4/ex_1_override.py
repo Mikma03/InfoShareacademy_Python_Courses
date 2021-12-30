@@ -21,7 +21,7 @@ class Tutor(Teacher):
         # self.assigned_departments = [department]
         super().__init__(name, subject)
         self.guided_department = department
-        # self.assigned_departments = [department]
+        self.assigned_departments = [department]
         # W przypadku, gdy dane pole jest listą, możemy je zmodyfikować/rozszerzyć np. dodając wartość
         self.assigned_departments.append(department)
 

@@ -11,9 +11,9 @@ def run_example():
     school.students = new_students
     print(school)
 
-    too_many_students = data_generator.generate_students(number_of_students=100)
-    school.students = too_many_students
-    print(school)
+    # too_many_students = data_generator.generate_students(number_of_students=100)
+    # school.students = too_many_students
+    # print(school)
 
 
 if __name__ == '__main__':
