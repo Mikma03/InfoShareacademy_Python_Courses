@@ -9,29 +9,29 @@ def run_example():
 
     # Wcześniejszym sposobem na formatowanie napisów jest tzw. New style formatting, czyli metoda format na str
     # Występuje ona w kilku wariantach - po pierwsze puste nawiasy i uzupełnianie według kolejności
-    # message = "{} ma już prawie {} lat".format(language, python_age)
-    # print(message)
+    message = "{} ma już prawie {} lat".format(language, python_age)
+    print(message)
 
     # Kolejność nie może nam się pomylić
-    # message = "{} ma już prawie {} lat".format(python_age, language)
-    # print(message)
+    message = "{} ma już prawie {} lat".format(python_age, language)
+    print(message)
 
     # Drugi sposób to podanie wprost kolejności argumentów
-    # message = "{0} ma już prawie {1} lat".format(language, python_age)
-    # print(message)
+    message = "{0} ma już prawie {1} lat".format(language, python_age)
+    print(message)
 
     # Trzeci sposób to nazwanie poszczególnych zmiennych - wtedy nie musimy się martwić kolejnością
-    # message = "{language} ma już prawie {age} lat".format(language=language, age=python_age)
-    # print(message)
+    message = "{language} ma już prawie {age} lat".format(language=language, age=python_age)
+    print(message)
 
     # Innym sposobem formatowania jest tzw. printf style, czyli formatowanie z procentem
     # W tym przypadku za pomocą literek możemy podać typ zmiennej (s -> str, d -> int)
-    # message = "%(language)s ma już prawie %(age)d lat" % {"language": language, "age": python_age}
-    # print(message)
+    message = "%(language)s ma już prawie %(age)d lat" % {"language": language, "age": python_age}
+    print(message)
 
     # Tutaj również istnieje wariant bez nazw - argumenty przekazujemy za pomocą krotki
-    # message = "%s ma już prawie %d lat" % (language, python_age)
-    # print(message)
+    message = "%s ma już prawie %d lat" % (language, python_age)
+    print(message)
 
 
 

@@ -11,8 +11,8 @@ def run_example():
     print(numbers)
 
     # List comprehensions zawiera również opcjonalną część if
-    # numbers = [number for number in range(15) if number % 2 == 0]
-    # print(numbers)
+    numbers = [number for number in range(15) if number % 2 == 0]
+    print(numbers)
 
     # Odpowiadająca pętla for
     # numbers = []
@@ -22,19 +22,19 @@ def run_example():
     # print(numbers)
 
     # W analogiczny sposób możemy wybrać co drugi smak
-    # favourite_flavours = [
-    #     "malinowy",
-    #     "truskawkowy",
-    #     "czekoladowy",
-    #     "pistacjowy",
-    #     "kokosowy",
-    # ]
-    # flavours = [flavour for index, flavour in enumerate(favourite_flavours) if index % 2 == 0]
-    # print(flavours)
+    favourite_flavours = [
+        "malinowy",
+        "truskawkowy",
+        "czekoladowy",
+        "pistacjowy",
+        "kokosowy",
+    ]
+    flavours = [flavour for index, flavour in enumerate(favourite_flavours) if index % 2 == 0]
+    print(flavours)
 
     # W list comprehensions możemy użyć również pełnego wyrażenia if else
-    # flavours = [flavour if index % 2 == 0 else "---" for index, flavour in enumerate(favourite_flavours)]
-    # print(flavours)
+    flavours = [flavour if index % 2 == 0 else "---" for index, flavour in enumerate(favourite_flavours)]
+    print(flavours)
 
     # Odpowiadająca pętla for
     # flavours = []
@@ -46,8 +46,8 @@ def run_example():
     # print(flavours)
 
     # Możemy również zagnieżdżać je w sobie
-    # rows_and_cols = [[row for row in range(5)] for column in range(4)]
-    # print(rows_and_cols)
+    rows_and_cols = [[row for row in range(5)] for column in range(4)]
+    print(rows_and_cols)
 
     # Odpowiadająca pętla for
     # rows_and_cols = []

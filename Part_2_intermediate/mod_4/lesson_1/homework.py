@@ -3,6 +3,7 @@
 # Następnie na pierwszych trzech liczbach typu float zastosuj zaokrąglanie (kolejno round, ceil oraz floor).
 # Kolejne trzy liczby typu float podnieś do potęgi o wartości
 # odpowiednio pierwszej, drugiej i trzeciej wylosowanej liczby całkowitej.
+
 import math
 import random
 
@@ -26,8 +27,8 @@ def run_example():
     print(pow(float_numbers[4], int_numbers[1]))
     print(math.pow(float_numbers[5], int_numbers[2]))
 
-    # print(int_numbers[0] ** int_numbers[0])
-    # print(math.pow(int_numbers[0], int_numbers[0]))
+    print(int_numbers[0] ** int_numbers[0])
+    print(math.pow(int_numbers[0], int_numbers[0]))
 
 
 if __name__ == '__main__':
