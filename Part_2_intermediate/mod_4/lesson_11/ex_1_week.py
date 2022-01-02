@@ -30,21 +30,21 @@ def is_weekend(week_day):
 
 
 def run_example():
-    # friday = Week.FRIDAY
-    # print(friday)
-    # print(friday.name, friday.value)
-    #
-    # print(friday is Week.FRIDAY)
-    # print(friday is Week.MONDAY)
+    friday = Week.FRIDAY
+    print(friday)
+    print(friday.name, friday.value)
+    
+    print(friday is Week.FRIDAY)
+    print(friday is Week.MONDAY)
 
-    # print(is_weekend(Week.SUNDAY))
-    # print(is_weekend_str(WeekStr.SUNDAY))
-    #
-    # print(is_weekend_str("SUNDAY"))
-    # print(is_weekend(7))
-    # print(is_weekend("SUNDAY"))
-    #
-    # print(is_weekend_str("Sunday"))
+    print(is_weekend(Week.SUNDAY))
+    print(is_weekend_str(WeekStr.SUNDAY))
+    
+    print(is_weekend_str("SUNDAY"))
+    print(is_weekend(7))
+    print(is_weekend("SUNDAY"))
+    
+    print(is_weekend_str("Sunday"))
 
     day_of_week_number = int(input("Który jest dzień tygodnia? "))
     day_of_week = Week(day_of_week_number)

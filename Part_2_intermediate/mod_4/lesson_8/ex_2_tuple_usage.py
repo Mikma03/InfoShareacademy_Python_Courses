@@ -2,11 +2,11 @@
 def find_best_grade(subjects_with_final_grades):
     best_subject = None
     best_final_grade = 0
-    # for subject, final_grade in subjects_with_final_grades.items():
-    #     if final_grade > best_final_grade:
-    #         best_final_grade = final_grade
-    #         best_subject = subject
-    # return best_subject, best_final_grade
+    for subject, final_grade in subjects_with_final_grades.items():
+        if final_grade > best_final_grade:
+            best_final_grade = final_grade
+            best_subject = subject
+    return best_subject, best_final_grade
 
     # for element in subjects_with_final_grades.items():
     #     print(type(element))
@@ -21,10 +21,10 @@ def run_avg_speed(name, distance, time):
     avg_speed = distance / time
     print(f"{name} biega z prędkością {avg_speed}")
 
-#
-# def sum_numbers(*args):
-#     print(type(args))
-#     return sum(args)
+
+def sum_numbers(*args):
+    print(type(args))
+    return sum(args)
 
 
 def run_example():
@@ -36,7 +36,7 @@ def run_example():
     #     "Fizyka": 3,
     #     "Biologia": 4
     # }
-    #
+    
     # best_subject, best_grade = find_best_grade(subjects_with_final_grades)
     # print(best_subject, best_grade)
     # result = find_best_grade(subjects_with_final_grades)
