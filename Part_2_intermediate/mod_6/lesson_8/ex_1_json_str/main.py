@@ -20,10 +20,10 @@ def run_example():
     json_students = json.dumps(students_data)
     print(json_students)
     print(type(json_students))
-    # print(json.dumps(students_data, indent=4))
+    print(json.dumps(students_data, indent=4))
 
-    print(json.loads(json_students))
-    print(type(json.loads(json_students)))
+    # print(json.loads(json_students))
+    # print(type(json.loads(json_students)))
 
 
 if __name__ == "__main__":

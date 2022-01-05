@@ -36,17 +36,17 @@ class PyJazzParser:
         self.parsed_page = BeautifulSoup(response.text, features="html.parser")
 
     # def show_example(self):
-    #     # tag_p = self.parsed_page.p
-    #     # print(tag_p)
-    #     # print(tag_p.name)
-    #     # print(tag_p.attrs)
-    #     # print(tag_p.string)
-    #     # time = self.parsed_page.div.time
-    #     # print(self.parsed_page.div.find_all('time'))
-    #     # print(time.contents)
-    #     # print(time.parent)
-    #     # print(time.previous_sibling)
-    #     # print(time.next_sibling)
+    #     tag_p = self.parsed_page.p
+    #     print(tag_p)
+    #     print(tag_p.name)
+    #     print(tag_p.attrs)
+    #     print(tag_p.string)
+    #     time = self.parsed_page.div.time
+    #     print(self.parsed_page.div.find_all('time'))
+    #     print(time.contents)
+    #     print(time.parent)
+    #     print(time.previous_sibling)
+    #     print(time.next_sibling)
     #     print(self.parsed_page.find_all(is_a_and_has_rel_bookmark))
 
     def parse_all_previews(self):

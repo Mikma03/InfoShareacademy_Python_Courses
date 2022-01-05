@@ -13,8 +13,8 @@ def run_homework():
     quantity = data_generator.generate_quantity()
     order_on_limit.add_product_to_order(product, quantity)
 
-    # order_elements_over_limit = data_generator.generate_order_elements(products_to_generate=Order.MAX_ELEMENTS + 1)
-    # order_over_limit = Order("Bob", "Kowalski", order_elements=order_elements_over_limit)
+    order_elements_over_limit = data_generator.generate_order_elements(products_to_generate=Order.MAX_ELEMENTS + 1)
+    order_over_limit = Order("Bob", "Kowalski", order_elements=order_elements_over_limit)
 
 
 if __name__ == '__main__':

@@ -8,10 +8,10 @@ from estudent.student import Student
 
 def run_example():
     students = data_generator.generate_students(number_of_students=250)
-    # school = School(name="Mała szkoła", students=[])
-    # school.students = students
+    school = School(name="Mała szkoła", students=[])
+    school.students = students
 
-    # school = School(name="Mała szkoła", students=data_generator.generate_students())
+    school = School(name="Mała szkoła", students=data_generator.generate_students())
 
     student_avg = GradeCalculator.calculate_student_avg([])
 

@@ -18,18 +18,18 @@ def handle_even_number(number_str):
 def run_example():
     number_str = input("Podaj liczbę parzystą: ")
 
-    try:
-        handle_even_number(number_str)
-    finally:
-        print("Błędu nie złapiemy ale wykonamy to zawsze")
-
     # try:
     #     handle_even_number(number_str)
-    # except NumberParsingError as error:
-    #     print(error)
-    #     raise error
     # finally:
     #     print("Błędu nie złapiemy ale wykonamy to zawsze")
+
+    try:
+        handle_even_number(number_str)
+    except NumberParsingError as error:
+        print(error)
+        raise error
+    finally:
+        print("Błędu nie złapiemy ale wykonamy to zawsze")
 
     # try:
     #     handle_even_number(number_str)

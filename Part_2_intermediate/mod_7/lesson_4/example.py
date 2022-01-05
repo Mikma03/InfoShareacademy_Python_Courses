@@ -1,14 +1,14 @@
 import requests
 
 
-# def run_example():
-#     # response = requests.get("https://www.pyjazz.pl")
-#     response = requests.get("https://github.com/fsfefe")
-#     print(response.status_code)
-#     print(response.ok)
-#
-#     response.raise_for_status()
-#     print(response.text)
+def run_example():
+    # response = requests.get("https://www.pyjazz.pl")
+    response = requests.get("https://github.com/fsfefe")
+    print(response.status_code)
+    print(response.ok)
+
+    response.raise_for_status()
+    print(response.text)
 
 
 def run_example():
