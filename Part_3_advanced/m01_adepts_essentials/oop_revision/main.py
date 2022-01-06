@@ -10,8 +10,8 @@ def run_movie_example():
     print(funny_movie)
 
     print(funny_movie._rates)
-    # print(funny_movie.__viewers)
-    # print(funny_movie._Movie__viewers)
+    print(funny_movie.__viewers)
+    print(funny_movie._Movie__viewers)
 
 
 def run_ranking_example():
@@ -27,12 +27,12 @@ def run_ranking_example():
 
 
 def run_comedy_example():
-    # funny_movie = Movie("Funny Movie", "Comedy")
+    funny_movie = Movie("Funny Movie", "Comedy")
     funny_movie = Comedy("Funny Movie")
     funny_movie.vote("Mikołaj", rate=5)
     funny_movie.vote("Alicja", rate=4)
 
-    # funny_movie.category = "Horror"
+    funny_movie.category = "Horror"
 
     print(funny_movie)
 

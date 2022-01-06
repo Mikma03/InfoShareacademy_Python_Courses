@@ -21,6 +21,6 @@ def run_write_example():
 
 
 if __name__ == "__main__":
-    run_example()
-    # run_csv_example()
+    # run_example()
+    run_csv_example()
     # run_write_example()

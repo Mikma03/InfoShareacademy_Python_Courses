@@ -17,10 +17,10 @@ class Movie:
 
     @property
     def rate(self):
-        return sum(self._rates) / len(self.__viewers)
-        # if len(self.__viewers):
-        #     return sum(self._rates) / len(self.__viewers)
-        # return 0
+        # return sum(self._rates) / len(self.__viewers)
+        if len(self.__viewers):
+            return sum(self._rates) / len(self.__viewers)
+        return 0
 
     @property
     def category(self):
