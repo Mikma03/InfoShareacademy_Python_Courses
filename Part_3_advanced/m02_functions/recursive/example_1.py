@@ -12,7 +12,7 @@ def factorial_iterative(number):
 
 
 def run_example():
-    result = factorial_recursive(5)
+    result = factorial_recursive(2211)
     # result = factorial_iterative(5)
     print(result)
 

@@ -9,7 +9,7 @@ def fibonacci(number):
 
 
 def run_example():
-    result = fibonacci(6)
+    result = fibonacci(3) 
     print(result)
 
 
