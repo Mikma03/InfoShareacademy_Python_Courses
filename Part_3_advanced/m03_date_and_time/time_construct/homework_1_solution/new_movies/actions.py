@@ -1,5 +1,6 @@
 from datetime import date
 
+
 from new_movies import permissions, movies_directory, cinema_schedule
 from new_movies.cinema_schedule import Weekday
 from new_movies.configuration import UNLIMITED_WATCHING_START_DATE, UNLIMITED_WATCHING_END_DATE

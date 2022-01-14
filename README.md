@@ -12,7 +12,7 @@ The whole things are divided into three main parts:
 
   2. **Intermediate** - **OOP in Python and Python environment plus workflow**
 
-  3. **Advanced** - **Andvanced OOP**
+  3. **Advanced** - **Andvanced OOP & metaclasses & generators**
 
 
 The three parts have been thought out and planned in such a way to introduce you to the world of programming from scratch and end at an advanced level.
