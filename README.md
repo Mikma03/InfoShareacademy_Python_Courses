@@ -1,5 +1,23 @@
-# InfoShareacademy_Python_Courses
 
+# Table of contents
+
+<p>&nbsp;</p>
+
+1. [Introduction to this repository](#Introduction-to-this-repository)
+
+2. [Detailed list of contents](#Detailed-list-of-contents)
+
+  2.1. [Part I](#Part-I)
+
+  2.1. [Part I](#Part-II)
+
+  2.1. [Part I](#Part-III)
+
+<p>&nbsp;</p>
+
+# Introduction to this repository
+
+<p>&nbsp;</p>
 
 As a result of participating in InfoShare courses about Python those are codes and algorithms done during classes.
 
@@ -30,3 +48,24 @@ PyCharm keyboard shortcuts: [Link](https://resources.jetbrains.com/storage/produ
 Makrdown tutorial in practical use: [Link](https://www.youtube.com/watch?v=FEa2diI2qgA&ab_channel=BryanJenks)
 
 
+# Detailed list of contents
+
+<p>&nbsp;</p>
+
+Text
+## Part I
+
+<p>&nbsp;</p>
+
+Text
+## Part II
+
+<p>&nbsp;</p>
+
+Text
+
+## Part III
+
+<p>&nbsp;</p>
+
+Text
