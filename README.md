@@ -7,11 +7,11 @@
 
 2. [Detailed list of contents](#Detailed-list-of-contents)
 
-  2.1. [Part I](#Part-I)
+    2.1. [Part I](#Part-I)
 
-  2.1. [Part I](#Part-II)
+    2.1. [Part I](#Part-II)
 
-  2.1. [Part I](#Part-III)
+    2.1. [Part I](#Part-III)
 
 <p>&nbsp;</p>
 
