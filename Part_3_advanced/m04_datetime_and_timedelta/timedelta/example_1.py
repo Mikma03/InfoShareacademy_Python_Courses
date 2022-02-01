@@ -2,9 +2,7 @@ from datetime import timedelta
 
 
 def run_example():
-    interval = timedelta(
-        days=1, seconds=1, microseconds=1, milliseconds=1, minutes=1, hours=1, weeks=1
-    )
+    interval = timedelta(days=1, seconds=1, microseconds=1, milliseconds=1, minutes=1, hours=1, weeks=1)
     print(interval)
     print(interval.days)
     print(interval.seconds)
