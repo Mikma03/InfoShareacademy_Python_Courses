@@ -35,7 +35,7 @@ class UI(ABC):
         for element in self.elements:
             element.render()
 
-        print(f"----{len(self.header_text) * '-'}----", "\n")
+        print(f"----{len(self.header_text) * '-'}----",  "\n")
 
 
 class LinuxUI(UI):
