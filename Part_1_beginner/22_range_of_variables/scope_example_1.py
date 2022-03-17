@@ -1,12 +1,12 @@
 
 # Zmienna result została zdefiniowana wewnątrz funkcji i nie mamy do niej dostępu spoza niej
 
-def avg_speed(distance, time):
-    result = distance / time
-    print("Nic nie zwracam - ha ha!")
+# def avg_speed(distance, time):
+#     result = distance / time
+#     print("Nic nie zwracam - ha ha!")
 
-avg_speed(30, 2)
-print(result)
+# avg_speed(30, 2)
+# print(result)
 
 #########################################################
 
