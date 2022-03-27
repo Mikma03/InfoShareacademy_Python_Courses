@@ -9,26 +9,26 @@ income = 5000
 employees_number = 7
 years_on_the_market = 3
 
-# if income < 5000:
-#     print("Przyznano główne wsparcie")
-# else:
-#     if 5 <= employees_number <= 10:
-#         print("Przyznano wsparcie z funduszu pracowników")
-#     else:
-#         if years_on_the_market < 3:
-#             print("Przyznano wsparcie dla nowych firm")
-#         else:
-#             print("Przyznano wsparcie na pocieszenie ;)")
+if income < 5000:
+    print("Przyznano główne wsparcie")
+else:
+    if 5 <= employees_number <= 10:
+        print("Przyznano wsparcie z funduszu pracowników")
+    else:
+        if years_on_the_market < 3:
+            print("Przyznano wsparcie dla nowych firm")
+        else:
+            print("Przyznano wsparcie na pocieszenie ;)")
 
 # To samo z wykorzystaniem and i negacji
-# if income < 5000:
-#     print("Przyznano główne wsparcie")
-# if income >= 5000 and 5 <= employees_number <= 10:
-#     print("Przyznano wsparcie z funduszu pracowników")
-# if income >= 5000 and not 5 <= employees_number <= 10 and years_on_the_market < 3:
-#     print("Przyznano wsparcie dla nowych firm")
-# else:
-#     print("Przyznano wsparcie na pocieszenie ;)")
+if income < 5000:
+    print("Przyznano główne wsparcie")
+if income >= 5000 and 5 <= employees_number <= 10:
+    print("Przyznano wsparcie z funduszu pracowników")
+if income >= 5000 and not 5 <= employees_number <= 10 and years_on_the_market < 3:
+    print("Przyznano wsparcie dla nowych firm")
+else:
+    print("Przyznano wsparcie na pocieszenie ;)")
 
 # Instrukcja elif pozwala powiedzieć "inaczej, jeśli ... "
 if income < 5000:
