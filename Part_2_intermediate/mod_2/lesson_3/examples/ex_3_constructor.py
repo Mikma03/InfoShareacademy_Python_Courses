@@ -10,12 +10,14 @@ class Student:
 
 def run_example():
     student = Student()
+    
     # Do stanu obiektu mamy dostęp - możemy go odczytać
     print(student.first_name)
     print(student.last_name)
     print(student.age)
 
     # Stan obiektu możemy również zmodyfikować
+
     # student.first_name = "Jakub"
     # student.last_name = "Kowalski"
     # student.age = 30

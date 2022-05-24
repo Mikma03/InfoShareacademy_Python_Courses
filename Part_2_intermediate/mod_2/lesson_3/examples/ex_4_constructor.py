@@ -7,6 +7,7 @@ class Student:
         self.last_name = last_name
         self.promoted = False
 
+student = Student()
 
 # Obiekty możemy przekazywać jako argumenty do funkcji
 def print_student(student):

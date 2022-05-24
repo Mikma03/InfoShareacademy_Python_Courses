@@ -1,3 +1,4 @@
+
 def run_example():
     loan_amount = int(input("Podaj wartość kredytu: "))
     property_value = int(input("Podaj wartość nieruchomości: "))
